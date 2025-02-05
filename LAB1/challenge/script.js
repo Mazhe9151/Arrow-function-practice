@@ -16,9 +16,11 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
-
+let amount= weeklyAllowance /3;
+console.log(amount);
 // 2. How many games can Jordan buy with their cut?
-
+let games = amount%game;
+console.log(games);
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
